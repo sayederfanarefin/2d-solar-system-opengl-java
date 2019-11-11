@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package rotation_cube_animator;
+package solar_system;
 
 
 
@@ -27,10 +27,10 @@ import static javax.media.opengl.GLProfile.GL2ES1;
  *
  * @author erfan
  */
-public class yo2 implements GLEventListener{
+public class main implements GLEventListener{
 
     /**
-     * @param args the command yo2 arguments
+     * @param args the command main arguments
      */
     
     
@@ -45,7 +45,7 @@ public class yo2 implements GLEventListener{
     static float moon_speed[] = {0.06f,0.08f,0.15f,0.05f,0.03f,0.07f,0.04f,0.02f};
     static float orbiting_speed[] = {0.015f,0.006f,0.008f,0.007f,0.004f,0.005f,0.003f,0.002f};
     static float planet_radius[] = {0.012f,0.019f,0.02f,0.015f,0.04f,0.03f,0.025f,0.023f};
-    static boolean rings[] = {false,false,false,false,false,true,true,true};
+    static boolean rings[] = {false,false,false,false,true,true,true,true};
     static boolean moon[] = {false,false,true,true,true,true,true,true};
     
     /*colors:
@@ -59,14 +59,14 @@ public class yo2 implements GLEventListener{
     neptune: pale-blue
     
     */ 
-    static double planet_rgb_r[] = {.8,.8,0,1,1,.85,0,0};
+    static double planet_rgb_r[] = {.8,.8,0,1,.7,.85,0,0};
     static double planet_rgb_g[] = {.8,.8,0,.1,.5,.4,.9,.8};
-    static double planet_rgb_b[] = {.8,0,1,.1,0,.06,0,.3};
+    static double planet_rgb_b[] = {.8,0,1,.1,0,.06,0,.5};
     
     public static void main(String[] args) {
         // TODO code application logic here
         
-        yo2 l=new yo2();
+        main l=new main();
         
         glcanvas.setSize(800, 800);
         
@@ -80,7 +80,7 @@ public class yo2 implements GLEventListener{
        glcanvas.addGLEventListener(l);
     }
 
-    public yo2() {
+    public main() {
         
     }
 
