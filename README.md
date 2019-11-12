@@ -1,5 +1,5 @@
 # Solar system animation using OpenGl and Java
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![HitCount](http://hits.dwyl.io/sayederfanarefin/java-opengl-lab-final-project-2d-solar-system.svg)](http://hits.dwyl.io/sayederfanarefin/java-opengl-lab-final-project-2d-solar-system)
 
 
 This is a 2D solar system animated model using opengl &amp; java. This project was done as a part of Computer Graphics course in my undegrad in BRAC University. 
